@@ -1,0 +1,23 @@
+<section class="a1-banner-wrap">
+  <div class="a1-stars"></div>
+  <div class="a1-fog"></div>
+  <h1 class="a1-logo">{{ section.settings.logo_text }}</h1>
+  <div class="a1-ticker">
+    <div class="a1-ticker-track">
+      <span>✈️ Free Shipping Worldwide 🌎</span>
+      <span>💎 Top Quality Guaranteed 💎</span>
+      <span>🔥 10,000+ 5⭐ Reviews 🔥</span>
+      <span>✈️ Free Shipping Worldwide 🌎</span>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "A1 Galaxy Banner",
+  "settings": [
+    { "type": "text", "id": "logo_text", "label": "Logo text", "default": "A1 REPS" }
+  ],
+  "presets": [{ "name": "A1 Galaxy Banner" }]
+}
+{% endschema %}
